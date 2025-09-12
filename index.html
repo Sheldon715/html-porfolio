@@ -1,40 +1,64 @@
-<!-- TODO 1: Create the HTML Boilerplate -->
- 
-<!-- TODO 2: Add Your previous projects' HTML into the public folder -->
-
-<!-- TODO 3: Take screenshots of your project previews and add the images to the images folder -->
-
-<!-- TODO 4: Add titles/subtitles etc. -->
-
-<!-- TODO 5: Add a link to the project pages -->
-
-<!-- TODO 6: Add images to show the project previews
-HINT for TODO 6: You can use the height attribute set to 200 to make the image smaller:
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img#attr-height -->
-
-<!-- TODO 7: Add the Contact Me and About Me page links -->
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sheldon's Portfolio</title>
+    <title>My Resume
+    </title>
 </head>
 <body>
-    <h1>Sheldon Liu's Portfolio</h1>
-    <h2>I'm a Web developer</h2>
+    <h1>Sheldon Liu</h1>
+    <img src="./assets/images/profile.jpg" height="200" alt="me" />
     <hr />
-    <h3>
-        <a href="./public/movie-ranking.html">Movie Ranking Project</a>
-    </h3>
-    <img height="200" src="./assets/images/Movie ranking.png" alt="movie rank" />
-    <h3>
-        <a href="./public/birthday-invite.html">Birthday Invite Project</a>
-    </h3>
-    <img height="200" src="./assets/images/birthday invite.png" alt="birthday invite" />
+    <h2>SUMMARY</h2>
+        <pr>I am a student from University of Melbourne with experience in Web developed and Full stack.</pr>
     <hr />
-    <a href="./public/about.html" >About me</a> 
-    <a href="./public/contact.html">Contact Me</a>
+        <h2>EDUCATION</h2>
+    <h3>Bachelor of Science(Computer Sorftware and System)</h3>
+    <h4> Jun 2023 - July 2026</h4>
+    <pr>University of Melbourne, Australia </pr>
+    <hr />
+    <h2>PROJECT EXPERIENCE</h2>
+    <h3>1. Crime Rate Prediction System</h3>
+    <pr>Data Analytics Project | Python, scikit-learn, Pandas, Jupyter</pr>
+    <ul>
+        <li>Built a model predicting suburban crime rates using socio-economic indicators.</li>
+        <li>Applied linear and decision tree regression, achieving R² = 0.64.</li>
+        <li>Processed real datasets and delivered insights for policy recommendations.</li>
+    </ul>
+    <h3>2. Virtual Memory Management Simulator</h3>
+    <pr>Systems Programming Project | C, Bit Manipulation, TLB, Page Table, FIFO</pr>
+    <ul>
+        <li>Simulated logical-to-physical address translation with page table and TLB (LRU).</li>
+        <li>Implemented FIFO page eviction and frame allocation.</li>
+        <li>Gained hands-on experience with low-level memory handling.</li>
+    </ul>
+    <h3>3. HTTP Web Proxy with LRU Caching</h3>
+    <pr>Networking Project | C, Sockets, TCP, HTTP/1.1, Cache Management</pr>
+    <ul>
+        <li>Built HTTP proxy server with LRU caching to optimize GET requests.</li>
+        <li>Parsed HTTP headers for cache validation and expiration.</li>
+        <li>Strengthened skills in socket programming and network debugging.</li>
+    </ul>
+    <hr />
+    <h2>SKILLS</h2>
+    <ul>
+        <li>Programming: Python, Java, C</li>
+        <li>Tools: VS Code, PyCharm, IntelliJ, Jupyter Notebook</li>
+        <li>Version Control: Git, GitHub</li>
+        <li>Reporting: Word, PowerPoint, Excel</li>
+        <li>Team Collaboration & Presentation</li>
+        <li>Bilingual: Mandarin & English</li>
+    </ul>
+    <hr />
+    <h2>Other</h2>
+    <ul>
+        <li><a href="./Public/about.html">About me</a></li>
+        <li><a href="./Public/contact.html">Contact me</a></li>
+    </ul>
+
+<footer>
+    <p>© Sheldon Liu. All rights reserved.</p>
+</footer>
 </body>
 </html>
